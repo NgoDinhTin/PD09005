@@ -1,11 +1,12 @@
 import React from 'react';
-import {Text} from 'react-native';
-import Mylab3 from './scr/screen/lab3';
-import Mylab4 from './scr/screen/lab4';
+import {View, Text} from 'react-native';
+import Lab3 from './scr/screen/lab3';
+import Lab4 from './scr/screen/lab4';
 
 const App = () => {
-  return <Mylab4></Mylab4>;
+  return (
+   <Lab3></Lab3>
+  );
 };
 
 export default App;
-
