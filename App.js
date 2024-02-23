@@ -1,13 +1,11 @@
 import React from 'react';
 
-import User from './src/screen/lab7/UserScreen';
-import Lab7 from './src/screen/lab7';
-import TopTab from './src/screen/lab7/topmenu';
+import Crud from './src/screen/lab8/CRUD';
 
 
 const App = () => {
   return (
-  <TopTab/>
+  <Crud></Crud>
   );
 };
 
